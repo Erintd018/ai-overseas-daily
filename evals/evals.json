@@ -1,0 +1,23 @@
+{
+  "skill_name": "ai-overseas-daily",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "生成今天的海外大模型每日情报",
+      "expected_output": "Should run the full pipeline: fetch data from 8 radars, generate 3-board report (commercialization, data engineering, application innovation), and distribute to Feishu/Ruliu",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我配置海外AI日报的环境，我不知道怎么获取API key",
+      "expected_output": "Should walk through the .env.example file, explain each required API key, and guide user to register for RapidAPI, set up Feishu app, and configure LLM endpoint",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想先测试一下报告生成，不要发如流和飞书",
+      "expected_output": "Should run with --no-distribute flag, generate the report file without distributing, and show the user the output path",
+      "files": []
+    }
+  ]
+}
