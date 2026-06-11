@@ -1,4 +1,4 @@
-# ai-overseas-daily
+# ai-overseas-daily skill
 
 > 8源聚合 + 三门控质检 + 双端自动分发的海外 AI 情报管线，日报从采集到推送全自动。
 
